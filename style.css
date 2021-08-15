@@ -16,7 +16,7 @@
   main {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 30%;
     left: 0;
     width: 100%;
     max-width: 310px;
@@ -75,7 +75,7 @@ select, option{
 
 ul{
   list-style: none;
-  margin: 5;
+  margin: 50;
 }
 .main li {
   color: #e84f4f;
@@ -90,9 +90,9 @@ ul{
 }
 
 a {
-  color: #dddddd;
+  color: #928F83;
   text-decoration: none;
-  display: block;
+  display: inline;
   float: none;
 }
 
@@ -101,9 +101,9 @@ li{
    -moz-box-sizing: border-box;
    box-sizing: border-box;
 
-   float   : left;
-   width   : 25%;
-   padding : 5px; /* this will be applied internally, due to 
+   float   : right;
+   width   : 30%;
+   padding : 0px; /* this will be applied internally, due to 
                       box-sizing property */
 
 }
